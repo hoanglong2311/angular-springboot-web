@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
     this.http
       .get<any>('http://localhost:8070/api/sp1/product/list')
       .subscribe((response) => {
-        console.log('xxxxxxx', response);
+        console.log('xxx', response);
       });
   }
   title = 'AdminFE';
